@@ -3,7 +3,7 @@ import './App.css';
 import Banner from './Components/Banner/Banner';
 import NavBar from './Components/NavBar/NavBar';
 import RowPost from './Components/RowPost/RowPost';
-import {action, orginals, comedy, romance} from './url'
+import {action, orginals, comedy, romance, horror} from './url'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <RowPost url={action} title={"Action"} isSmall />
       <RowPost url={comedy} title={"Comedy"} isSmall />
       <RowPost url={romance} title={"Romance"} isSmall />
+      <RowPost url={horror} title={"Horror"} isSmall />
     </div>
   );
 }
