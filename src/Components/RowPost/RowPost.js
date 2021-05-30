@@ -14,7 +14,7 @@ function RowPost(props) {
         }).catch(err=>{
             alert('Network Error')
         })
-    }, [])
+    }, [props])
     const opts = {
         height: '390',
         width: '100%',
