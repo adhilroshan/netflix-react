@@ -9,7 +9,7 @@ function NavBar() {
                     <img className="avatar" src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png" alt="Avatar" />
                 </button>
                 <div className="dropdown-content">
-                    <a href="#">Login</a>
+                    <a href="/">Login</a>
                 </div>
             </div>
         </div>
